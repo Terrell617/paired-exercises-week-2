@@ -1,6 +1,10 @@
 package com.techelevator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Application {
+    private List<Department> departments = new ArrayList<>();
 
     /**
      * The main entry point in the application
@@ -39,6 +43,8 @@ public class Application {
      * Create departments and add them to the collection of departments
      */
     private void createDepartments() {
+
+
     }
 
     /**
